@@ -313,8 +313,8 @@ wet_sample = "temp.wav"
 waveform1, sample_rate1= torchaudio.load(dry_sample)
 waveform2, sample_rate2= torchaudio.load(wet_sample)
 
-n_fft = 1024
-win_length = None
+n_fft = 2048
+win_length = 2048
 hop_length = 512
 
 # define transformation
